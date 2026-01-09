@@ -89,15 +89,14 @@ A Transformer is the **core neural network architecture** used in modern LLMs.
 Transformers process **all tokens in parallel**, unlike older models.
 
 ---
-### Parallelism in Transformers
-
-Transformers process all tokens in a sequence **simultaneously** instead of sequentially.  
-Self-attention and multi-head attention run in parallel using matrix operations.  
-This enables faster training, efficient GPU usage, and better scalability than RNNs.
-
-
 ## Why Transformers Are Powerful
 - Understand long sentences and documents
 - Capture relationships between words
 - Faster training and inference
 - Highly scalable
+
+  ### Parallelism in Transformers
+
+Transformers process all tokens in a sequence **simultaneously** instead of sequentially.  
+Self-attention and multi-head attention run in parallel using matrix operations.  
+This enables faster training, efficient GPU usage, and better scalability than RNNs.
