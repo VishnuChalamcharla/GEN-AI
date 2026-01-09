@@ -85,7 +85,6 @@ Tokenization is the process of **breaking text into tokens** before processing.
 ## What is a Transformer?
 A Transformer is the **core neural network architecture** used in modern LLMs.
 
-> GPT = Generative Pre-trained Transformer
 
 Transformers process **all tokens in parallel**, unlike older models.
 
