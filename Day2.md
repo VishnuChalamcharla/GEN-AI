@@ -1,4 +1,4 @@
-# Neural Networks in LLMs (Simple Guide)
+# Neural Networks in LLMs 
 
 ## What is a Neural Network?
 A neural network is a system inspired by the human brain that learns patterns from data using artificial neurons (nodes).
@@ -6,7 +6,7 @@ A neural network is a system inspired by the human brain that learns patterns fr
 In Large Language Models (LLMs), neural networks help the model:
 - Understand language
 - Learn relationships between words
-- Predict the next word (token)
+- Predict the next word 
 
 ---
 
@@ -60,7 +60,7 @@ In Large Language Models (LLMs), neural networks help the model:
 
 ---
 
-# Tokens and Transformers in LLMs (Simple Guide)
+# Tokens and Transformers in LLMs 
 
 ## What is a Token?
 A token is the **smallest unit of text** that a Large Language Model (LLM) understands and processes.
@@ -80,6 +80,8 @@ Tokens can be:
 
 ## Tokenization
 Tokenization is the process of **breaking text into tokens** before processing.
+
+---
 ## What is a Transformer?
 A Transformer is the **core neural network architecture** used in modern LLMs.
 
