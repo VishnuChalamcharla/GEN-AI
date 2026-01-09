@@ -3,7 +3,8 @@
 ## Definition
 **An embedding is a numerical representation of text that captures its meaning by placing it as coordinates in a high-dimensional space.**
 
-## One-Line  - > **Embedding is the GPS coordinate of a word that represents its meaning numerically.**
+## One-Line 
+**Embedding is the GPS coordinate of a word that represents its meaning numerically.**
 # Embeddings – Session Notes (Lexical Search to Semantic Search)
 
 ## 1. Traditional Search (Lexical Search)
