@@ -136,34 +136,11 @@ These are extensions of:
 
 ---
 
-## 10. Key Understanding from Session
-
-- Apple and Banana are close because of **coordinates**
-- Not because of human assumption
-- AI uses **distance between embeddings**
-- Nearest coordinates = nearest meaning
-
----
-
-## 11. Final Session Definition (Trainer-Preferred)
+## 10. Final Session Definition 
 
 > **Embeddings are the GPS coordinates of words that help machines identify which meanings are close to each other.**
 
----
 
-## 12. Why Embeddings Matter
-- Enable **semantic search**
-- Replace keyword-based matching
-- Power:
-  - Chatbots
-  - AI search
-  - LLM reasoning
 
----
 
-## 13. Session Takeaway
-- Lexical search → matches letters
-- Embeddings → match meaning
-- Coordinate systems make similarity measurable
-- High-dimensional embeddings are the foundation of modern AI
 
