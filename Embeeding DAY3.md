@@ -5,7 +5,7 @@
 
 ## One-Line 
 **Embedding is the GPS coordinate of a word that represents its meaning numerically.**
-# Embeddings – Session Notes (Lexical Search to Semantic Search)
+# Embeddings – Session Notes 
 
 ## 1. Traditional Search (Lexical Search)
 
