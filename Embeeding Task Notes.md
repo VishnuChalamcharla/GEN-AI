@@ -1,4 +1,4 @@
-# 📌 Embeddings – Ultra-Short Revision Notes
+# 📌 Embeddings 
 
 ## What is an Embedding?
 An **embedding** is a numerical vector that represents the **meaning** of text, images, audio, or video.
