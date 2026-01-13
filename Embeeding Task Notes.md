@@ -62,10 +62,10 @@ Video
 → Store with timestamp
 
 Example metadata:
-```json
 { "video_id": "vid1", "time": "00:01:32" }
 
-Task 1: Video/Image Chatbot Requirements
+
+###Task 1: Video/Image Chatbot Requirements
 
 Frame extraction from video
 
