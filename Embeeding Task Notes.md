@@ -65,35 +65,22 @@ Example metadata:
 { "video_id": "vid1", "time": "00:01:32" }
 
 
-###Task 1: Video/Image Chatbot Requirements
+###Task 1: 1.Determine the requirements for building a video or image chatbot with streaming capabilities for images and videos using the concept of embeddings. Embedding Requirements Embedding Types Needed Data Type Embedding Model Image Vision embedding model (CLIP, ViT) Video frame Image embedding model Video clip Aggregated frame embeddings Audio (optional) Audio embeddings Text Text embedding model
 
-Frame extraction from video
+Embedding Dimensions (Typical) Model Type Dimensions Image (CLIP) 512 Vision Transformer 768 / 1024 Text embeddings 768 / 1536
 
-Multimodal embedding generation
+Each image/frame → 1 vector Each video → many vectors
 
-Vector database for search
+Embedding Strategy Image 1 image → 1 embedding
 
-Metadata (time, frame ID)
+Video → Frames (every N seconds) → Each frame → embedding → Store with timestamp metadata
 
-Parallel processing for streaming
+Example metadata: { "video_id": "vid123", "frame_time": "00:01:32", "embedding": [...] }
 
-LLM for response generation
+Vector Database Requirements Capabilities Needed
 
-Query Flow
+High-dimensional vector storage Cosine similarity / dot product Metadata filtering Fast ANN (Approximate Nearest Neighbor) Horizontal scaling
 
-User Query → Text Embedding
-→ Vector DB Search
-→ Top-K Frames Retrieved
-→ Group into Scenes
-→ Context sent to LLM
-→ Response streamed to user
+Suitable Databases Pinecone Weaviate FAISS Milvus MongoDB Atlas Vector Search
 
-LLM never processes raw video.
-
-Task 2: Models & Dimensions
-
-Embedding = vector of numbers
-
-Dimensions = size of the vector
-
-All compared embeddings must have the same dimension
+Query Flow (User Interaction) Example Query “Show me scenes where a person is holding a phone” Steps: Convert query → text embedding Search vector DB against image/video embeddings Retrieve top-K matching frames Group frames → scenes Send context to LLM Stream response + thumbnails
